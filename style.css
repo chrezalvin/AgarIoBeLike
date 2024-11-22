@@ -1,0 +1,40 @@
+.my-canvas{
+    /* width: 100vw; */
+    /* height: 100vh; */
+
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.hidden{
+    display: none;
+}
+
+#retryButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+}
